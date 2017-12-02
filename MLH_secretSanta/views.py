@@ -13,3 +13,8 @@ def index(request):
 
 def user(request):
     return HttpResponse("Your on the user page!")
+
+def action_page(request):
+    template = loader.get_template('MLH_secretSanta/action-page.html')
+    context = {}
+    return HttpResponse(template.render(context, request))
