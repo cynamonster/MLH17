@@ -21,5 +21,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^MLH_secretSanta/', include('MLH_secretSanta.urls')),
     url(r'^MLH_secretSanta/user/', include('MLH_secretSanta.urls')),
+    url(r'^/action-page', include('MLH_secretSanta.urls')),
     url(r'^admin/', admin.site.urls),
 ]
