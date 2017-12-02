@@ -4,5 +4,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('', views.user, name='user')
+    path('elfcreate', views.user, name='user')
 ]
