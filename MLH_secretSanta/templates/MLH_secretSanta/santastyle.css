@@ -1,3 +1,8 @@
+
+
+
+
+
 h1 {
     font-size: 150%;
     text-align: center
@@ -17,12 +22,33 @@ body	{
 
 	background-image: url('img/wrap_paper.jpg');
 /*	background-color: #3ea055;	*/
+
+
+    font-family: 'Vollkorn SC', serif;
+
+
 }
 
 .xmas {
 
 	width: 700px;
 	height: 85px;
+	text-align: center;
+	padding: 2em;
+	border: .5em solid red;
+	
+	
+	background-color: #E4E4D9;
+
+	margin: auto;
+	border-radius: 25px;
+
+}
+
+.xmas2 {
+
+	width: 700px;
+	height: 95px;
 	text-align: center;
 	padding: 2em;
 	border: .5em solid red;
