@@ -1,11 +1,6 @@
-<<<<<<< HEAD:MLH_secretSanta/static/MLH_secretSanta/santastyle.css
+
 {% load static %}
-=======
 
-
-
-
->>>>>>> upstream/master:MLH_secretSanta/templates/MLH_secretSanta/santastyle.css
 
 h1 {
     font-size: 150%;
@@ -31,6 +26,10 @@ body	{
     font-family: 'Vollkorn SC', serif;
 
 
+}
+
+img {
+    margin: auto;
 }
 
 .xmas {
